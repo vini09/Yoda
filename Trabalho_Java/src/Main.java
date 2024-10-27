@@ -28,15 +28,15 @@ public class Main {
         Aprendiz aprendiz = new Aprendiz("Darth Malak", 40);
         System.out.println(aprendiz.nome + " é um " + aprendiz.genero + " com força " + aprendiz.forca);
 
-        // Simulando um ataque
-        mS.atacar(mJ);  // Mestre Sith ataca Jedi
-        c1.atacar(mS); //Cavaleito ataca Sith
-        pdw.atacar(mS);  //Cavaleiro ataca Mestre Sith
-        mS.usarRaio(); //Mestre Jedi usa raios
-        c1.atacar(aprendiz); //Cavaleito ataca aprendiz
-        mJ.usarRaio(); //Mestre Sith usa raios
-        pdw.atacar(lord); //Padawan ataca Lord
-        mS.soco(pdw); //Mestre Jedi ataca Lord
-        mJ.soco(lord); //Mestlre Jedi ataca aprendiz
+        //Rodando o código de batalha
+        mS.atacar(mJ); 
+        c1.atacar(mS); 
+        pdw.atacar(mS); 
+        mS.usarRaio(); 
+        c1.atacar(aprendiz); 
+        mJ.usarRaio(); 
+        pdw.atacar(lord); 
+        mS.soco(pdw); 
+        mJ.soco(lord); 
     }
 }
